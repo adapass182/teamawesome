@@ -50,3 +50,13 @@ p {
 .bottomborder {
   border-bottom: 2px solid #f1f1f1;
 }
+
+.bulletpoints {
+  font-size: 0.4rem;
+}
+
+/*Clean Code stylesheet*/
+
+.spanWholeGrid {
+  grid-column-start: span 3;
+}
