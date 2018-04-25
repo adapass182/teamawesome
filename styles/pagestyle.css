@@ -1,0 +1,59 @@
+html {
+  font-size: 40px;
+}
+
+body {
+  margin: 0 0 0 0;
+  height: 100%
+  width: 100%;
+  background-image: url('background.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax1 {
+ background-color: #42dff4;
+ opacity: 0.3;
+ height: 100%;
+ background-attachment: scroll;
+ margin: 0;
+}
+
+.parallax2 {
+ background-color: #41f468;
+ opacity: 0.3;
+ background-attachment: scroll;
+}
+
+.parallax3 {
+ background-color: #e241f4;
+ opacity: 0.3;
+ background-attachment: scroll;
+ text-align: center;
+}
+
+.border {
+  background-color:transparent;
+  font-size:25px;
+  color: #f7f7f7;
+  text-align: center;
+  margin-top: 300px;
+  margin-bottom: 300px;
+}
+
+h1, h3, h5 {
+  font-family: 'Roboto', sans-serif;
+
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
