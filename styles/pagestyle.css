@@ -1,12 +1,14 @@
 html {
   font-size: 40px;
+  color: white;
 }
 
 body {
   margin: 0 0 0 0;
   height: 100%
   width: 100%;
-  background-image: url('background.jpg');
+  background-image: url('background2.jpg');
+  background-color: rgba(255, 0, 0, 0.5);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -15,22 +17,30 @@ body {
 
 .parallax1 {
  background-color: #42dff4;
- opacity: 0.3;
+ opacity: 0.9;
  height: 100%;
  background-attachment: scroll;margin: 0;
 }
 
 .parallax2 {
  background-color: #41f468;
- opacity: 0.3;
+ opacity: 0.9;
  background-attachment: scroll;
 }
 
 .parallax3 {
  background-color: #e241f4;
- opacity: 0.3;
+ opacity: 0.9;
  background-attachment: scroll;
  text-align: center;
+}
+
+.textarea {
+height: 80%;
+}
+
+a {
+    color: hotpink;
 }
 
 .border {

@@ -1,12 +1,80 @@
 html {
   font-size: 50px;
+  color: white;
+}
+
+.dropdown {
+  background-color: transparent;
 }
 
 body {
   margin: 0 0 0 0;
-  width: auto;
+  height: 100%
+  width: 100%;
+  background-image: url('background2.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: 'Roboto', sans-serif;
+ font-family: 'Roboto', sans-serif;
 }
+
+h1 {
+ font-size: 0.9rem;
+ text-align: center;
+}
+
+h2 {
+ font-size: 0.8rem;
+ text-decoration: underline;
+}
+
+h3 {
+ font-size: 0.7rem;
+}
+
+h4 {
+ font-size: 0.6rem;
+}
+
+h5 {
+ font-size: 0.5rem;
+}
+
+p {
+ font-size: 0.4rem;
+}
+
+.gridlayout {
+ display: grid;
+ grid-template-columns: repeat(3, 33%);
+ grid-auto-flow: row;
+ grid-gap: 5px;
+ justify-items: center;
+ align-items: start;
+ justify-content: center;
+}
+
+a {
+    color: white;
+}
+
+.bottomborder {
+ border-bottom: 2px solid #f1f1f1;
+}
+
+.bulletpoints {
+ font-size: 0.4rem;
+}
+
+/*Clean Code stylesheet*/
+
+.spanWholeGrid {
+ grid-column-start: span 3;
+}
+Message Input
+
+Message #teamawesome
